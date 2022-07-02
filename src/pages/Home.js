@@ -24,19 +24,13 @@ function Home() {
           and provide academic advisor information relevant approval.
   </Typography>*/}
         <Stack spacing={2} direction="row">
-          <Button variant="outlined" color="secondary" href="/admin">Admin</Button>
+          <Button variant="outlined" color="secondary" href="https://epa-admin.vercel.app/">Admin</Button>
          {/* <Button variant="outlined" color="secondary" href="/course">Course</Button>
           <Button variant="outlined" color="secondary" href="/advisor">Advisor</Button>*/}
         </Stack>
         </div>
       </div>
       <div className="rightContainer">
-        <Typography>
-          Handbook
-        </Typography>
-        <Typography>
-          Form
-        </Typography>
       {/*<Card sx={{ maxWidth: 400 }}>
       <CardActionArea>
         <CardMedia
