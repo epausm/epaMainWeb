@@ -1,45 +1,59 @@
 .menu {
     width: 100%;
-    height: auto;
+    height: 77.3vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
   }
+
   .menu .menuTitle {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
     font-size: 40px;
+    margin-bottom: 0px;
   }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    padding: 30px;
-  }
-  
-  form input {
-    height: 40px;
-    width: 80%;
-    border: none;
-    border-bottom: 1px solid #121619;
-    color: grey;
+  .menu .menuText {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
   }
 
-  input::placeholder {
-    font-weight: bold;
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
+  .accordian {
+    margin-left: 0px;
+    margin-bottom: 53px;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
   }
-  form input:focus{
-    outline: none;
+
+  .headerContainer {
+    margin-left: 0px;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
   }
-  
-  form label {
-    margin-top: 15px;
-    color: black;
+
+  .headerContainer button {
+    background-color: white;
+    color: #878fac;
+    margin-bottom: 40px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #878fac;
   }
   
   form button {

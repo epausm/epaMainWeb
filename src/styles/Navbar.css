@@ -1,6 +1,5 @@
 .navbar {
     width: 100%;
-    height: 100px;
     background-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(44,17,60,1) 40%, rgba(77,29,104,1) 100%);;
     background-position: 0% 100%;
     display: flex;
@@ -30,7 +29,7 @@
   }
   
   .navbar .leftSide img {
-    width: 70px;
+    width: 50px;
   }
   
   .navbar .rightSide {
@@ -47,6 +46,11 @@
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+  }
+
+  .navbar a:hover{
+    background-color: whitesmoke;
+    color: black;
   }
   
   .navbar .rightSide button {
