@@ -72,7 +72,7 @@ function Menu() {
       </div>
       
       <div className="headerContainer">
-          <Button className="button" variant="contained" color="secondary"  href="https://epa-admin.vercel.app/">Admin</Button>
+          <Button size="small" className="button" variant="contained" color="secondary"  href="https://epa-admin.vercel.app/">Admin</Button>
       </div>
       
     </div>

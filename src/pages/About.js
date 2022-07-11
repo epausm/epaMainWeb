@@ -23,7 +23,7 @@ function About() {
       <Card sx={{ minWidth: 275 }}>
       <CardContent>
       <Box sx={{ width: '100%' }}>
-        <Typography variant="body2">
+        <Typography variant="body2"  sx={{ mb: 1.5 }}>
         Established as the second university in the country in 1969, 
         Universiti Sains Malaysia (USM) was first known as Universiti Pulau Pinang. 
         In 1971, USM moved from its temporary premises at the Malayan Teachers’ Training College, 
